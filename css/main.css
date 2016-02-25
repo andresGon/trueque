@@ -1,0 +1,34 @@
+body {
+  background: #fff;
+}
+.container {
+  width: 970px;
+  margin: auto;
+}
+.container header {
+  background: #000;
+  height: 120px;
+  width: 100%;
+}
+.banner {
+  width: 100%;
+  height: 317px;
+  background: #e77189;
+}
+.artHome {
+  width: 320px;
+  float: left;
+  height: 271px;
+  border-right: 1px solid #000;
+}
+.pubHome {
+  width: 640px;
+  float: left;
+  height: 452px;
+}
+footer {
+  width: 100%;
+  height: 46px;
+  background: #000;
+  clear: both;
+}
