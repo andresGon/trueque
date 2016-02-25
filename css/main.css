@@ -1,5 +1,6 @@
 body {
   background: #fff;
+  font-family: arial;
 }
 .container {
   width: 970px;
@@ -10,10 +11,74 @@ body {
   height: 120px;
   width: 100%;
 }
+.container header .logo {
+  margin: 20px 0 0  25px;
+}
+.container header .wrapSocial {
+  float: right;
+  margin: 10px 10px 0 0;
+}
+.container header .wrapSocial a {
+  display: inline-block;
+  background-color: #fff;
+  width: 35px;
+  height: 35px;
+  border-radius: 35px;
+  margin: 0 7px;
+}
+.container header .wrapSocial a:nth-of-type(1) {
+  background-image: url(../img/facebook.svg);
+}
+.container header .wrapSocial a:nth-of-type(2) {
+  background-image: url(../img/twitter.svg);
+}
+.container header .wrapSocial a:nth-of-type(3) {
+  background-image: url(../img/rss.svg);
+}
+.container header nav {
+  float: right;
+  display: block;
+  clear: both;
+  margin-top: 30px;
+}
+.container header nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 0 10px;
+}
 .banner {
   width: 100%;
   height: 317px;
-  background: #e77189;
+  background-image: url(../img/banner.png);
+}
+.banner h1 {
+  font-size: 30px;
+  color: #e5ffff;
+  margin: 0;
+  padding: 30px 0  10px 23px;
+}
+.banner p {
+  color: #e5ffff;
+  font-size: 14px;
+  width: 300px;
+  padding: 0 0 0 23px;
+}
+.banner a {
+  width: 95px;
+  height: 33px;
+  background: #4d4d4d;
+  border-radius: 3px;
+  color: #fff;
+  text-align: center;
+  display: block;
+  font-size: 14px;
+  text-decoration: none;
+  line-height: 33px;
+  margin-left: 23px;
+}
+.banner a:hover {
+  text-decoration: underline;
 }
 .artHome {
   width: 320px;
