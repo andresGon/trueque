@@ -1,0 +1,105 @@
+body {
+  background: #fff;
+  font-family: arial;
+}
+.container {
+  width: 970px;
+  margin: auto;
+}
+.container header {
+  background: #000;
+  height: 120px;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+}
+.container header p {
+  margin: 0;
+}
+.banner {
+  width: 100%;
+  height: 317px;
+  background: #e77189;
+  color: #fff;
+  text-align: center;
+}
+.banner p {
+  margin: 0;
+}
+.wrapArticleHome {
+  background-color: #ffae36;
+  width: 950px;
+  padding: 10px;
+  height: auto;
+  float: left;
+  text-align: center;
+}
+.wrapArticleHome p {
+  color: #2e2e2e;
+}
+.artHome {
+  width: 306px;
+  margin: 0 5px;
+  float: left;
+  height: 271px;
+  color: #343436;
+  text-align: center;
+  background-color: #c7c7c7;
+}
+.artHome p {
+  margin: 0;
+}
+.pubHome {
+  width: 646px;
+  float: left;
+  height: 452px;
+  background-color: #bac3d2;
+  text-align: center;
+}
+.pubHome a {
+  display: block;
+  background-color: #ccc;
+  width: 233px;
+  height: 124px;
+  margin: 12px 45px;
+  text-align: center;
+}
+.pubHome a:nth-child(even) {
+  float: left;
+}
+.pubHome a:nth-child(odd) {
+  float: right;
+}
+.calendar {
+  float: left;
+  width: 324px;
+  height: 452px;
+  color: #fff;
+  text-align: center;
+  background-color: #568add;
+}
+.calendar p {
+  margin: 0;
+}
+footer {
+  width: 100%;
+  height: 46px;
+  background: #000;
+  clear: both;
+  color: #fff;
+  text-align: center;
+}
+footer p {
+  margin: 0;
+}
+.subHeader {
+  width: 100%;
+  height: 349px;
+  background: #e77189;
+  color: #fff;
+  text-align: center;
+}
+.subHeader p {
+  margin: 0;
+}
