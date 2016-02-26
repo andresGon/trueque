@@ -17,6 +17,19 @@ body {
 .container header p {
   margin: 0;
 }
+.container header .logo {
+  margin: 20px 0 0  25px;
+  float: left;
+}
+.container header nav {
+  float: right;
+  display: block;
+  margin: 10px 10px 0 0;
+  background-color: #fff;
+  width: 400px;
+  height: 30px;
+  color: #000;
+}
 .banner {
   width: 100%;
   height: 317px;
@@ -51,19 +64,22 @@ body {
   margin: 0;
 }
 .pubHome {
-  width: 646px;
+  width: 644px;
   float: left;
-  height: 452px;
+  height: 450px;
   background-color: #bac3d2;
   text-align: center;
+  border: 1px solid #000;
 }
 .pubHome a {
   display: block;
   background-color: #ccc;
   width: 233px;
   height: 124px;
-  margin: 12px 45px;
+  margin: 12px 40px;
   text-align: center;
+  text-decoration: none;
+  color: #000;
 }
 .pubHome a:nth-child(even) {
   float: left;
@@ -93,13 +109,82 @@ footer {
 footer p {
   margin: 0;
 }
-.subHeader {
-  width: 100%;
-  height: 349px;
+.bannerSubHome {
+  width: 970px;
+  height: 350px;
   background: #e77189;
   color: #fff;
   text-align: center;
 }
-.subHeader p {
+.bannerSubHome p {
   margin: 0;
+}
+.subBanner {
+  width: 970px;
+  height: 207px;
+  background-color: #8a320c;
+  margin: 25px 0 0 0;
+  color: #fff;
+  text-align: center;
+}
+.mainSubHome {
+  width: 578px;
+  background-color: #bac3d4;
+  height: auto;
+  float: left;
+  border: 1px solid #000;
+  text-align: center;
+}
+.mainSubHome .txt {
+  text-align: left !important;
+  padding: 0 20px ;
+}
+.mainSubHome a {
+  width: 248px;
+  height: 380px;
+  background-color: #ccc;
+  color: #000;
+  text-align: center;
+  display: block;
+  margin: 22px 18px;
+  text-decoration: none;
+}
+.mainSubHome a:nth-child(even) {
+  float: left;
+}
+.mainSubHome a:nth-child(odd) {
+  float: right;
+}
+.mainSubHome img {
+  margin: 20px 0;
+}
+.asideSubHome {
+  width: 390px;
+  height: auto;
+  background-color: #568add;
+  float: left;
+}
+.asideSubHome .asideImg {
+  width: 345px;
+  height: 345px;
+  background-color: #84bd3c;
+  margin: 25px auto ;
+  text-align: center;
+  color: #000;
+}
+.asideSubHome .widget {
+  width: 345px;
+  height: 350px;
+  background-color: #666;
+  color: #fff;
+  margin: 25px auto;
+  text-align: center;
+}
+.asideSubHome .twitter {
+  width: 345px;
+  height: 140px;
+  background-color: #e7718b;
+  color: #fff;
+  margin: 25px auto;
+  text-align: center;
 }
